@@ -2,25 +2,25 @@ body {
     background: url(back.jpg);
 }
 
-::backdrop {
-    backdrop-filter: inherit;
-}
-
 .container {
     display: flex;
 }
 
 .navbar {
+
     display: block;
-    width: 170px;
+    width: 250px;
 }
 
 .main {
     display: block;
+    color: white;
+    width: 900px;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
 }
 
 li {
