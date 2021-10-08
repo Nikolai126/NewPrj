@@ -1,3 +1,11 @@
+body {
+    background: url(back.jpg);
+}
+
+::backdrop {
+    backdrop-filter: inherit;
+}
+
 .container {
     display: flex;
 }
@@ -19,8 +27,14 @@ li {
     padding-left: 20px;
     width: 167px;
     height: 39px;
-    background-color: aqua;
+    background-color: rgb(34, 151, 132);
     border: black;
-    margin: 15px;
+    margin: 5px;
+    
+}
+li a { 
+    text-decoration: none;
+    line-height: 40px;
+    color: rgb(228, 228, 228);
 }
 
