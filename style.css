@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+}
+
+.navbar {
+    display: block;
+    width: 170px;
+}
+
+.main {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 20px;
+    width: 167px;
+    height: 39px;
+    background-color: aqua;
+    border: black;
+    margin: 15px;
+}
+
