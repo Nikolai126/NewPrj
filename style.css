@@ -1,5 +1,6 @@
 body {
-    background: url(back.jpg);
+    background: url(back.jpg), rgba(0, 0, 0, .3);
+
 }
 
 .container {
