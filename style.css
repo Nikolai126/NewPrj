@@ -12,15 +12,6 @@ body {
     width: 250px;
 }
 
-@media (max-width:950px) {
-    .container {
-        margin: 50px 0 0 0;
-    }
-    .navbar {
-        display: none;
-    }
-}
-
 .main {
     margin: 0 0 0 30px;
     width: 600px;
@@ -36,12 +27,15 @@ body {
     animation-fill-mode: forwards;
 }
 
-@media (max-width:1025px) {
-    .container {
-        height: 100%;
-    }
+@media (max-width:950px) {
     .main {
-        margin: auto auto;
+        margin: auto auto
+    }
+    .container {
+        margin: 50px 0 0 0;
+    }
+    .navbar {
+        display: none;
     }
 }
 
@@ -53,10 +47,10 @@ body {
 }
 
 @media (max-width:485px) {
-    .main {
-        max-width: 485px;
-        margin: auto auto;
+    .container {
+        margin: 50px 0 0 0;
     }
+    
 }
 
 @keyframes changeForm {
@@ -225,7 +219,7 @@ ul {
 }
 
 @media (max-width:950px) {
-    .header {
+       .header {
         display: block;
         position: fixed;
         width: 100%;
